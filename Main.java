@@ -11,7 +11,8 @@ public class Main {
 		if(lvl<=3){
 			GameMain.running = true;
 			new Thread(new GameMain(lvl)).start();
-		}else{
+		}
+		else{
 			JFrame end = new JFrame("Game Finished");
 			JPanel endp = new JPanel();
 			JLabel endl = new JLabel("YOU FINISHED THE GAME!");
